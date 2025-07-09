@@ -1,0 +1,82 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary {
+  color: #FD6E0A;
+}
+.dark-2 {
+  color: #474747;
+}
+.btn-primary {
+  background-color: #FD6E0A;
+  color: #fff;
+  padding: 18px 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* header */
+.header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+    
+/* Nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;  /* ✅ এটি শুধুই টাইপো ঠিক করা হয়েছে */
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+  align-items: center;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600; /* ✅ px বাদ দেওয়া হয়েছে, কারণ font-weight পিক্সেল হয় না */
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.banner-profile-pic {
+  width: 580px;
+  height: 676px;
+  border-radius: 40%;
+  margin-top: 20px;
+}
+.banner-content {
+  max-width: 580px;
+  max-height: 350px;  /* ✅ only syntax fixed */
+}
