@@ -1,121 +1,133 @@
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* shared style */
-.secondary-bg{
+.secondary-bg {
     background-color: #f5eded;
-
 }
 
 .text-primary {
-  color: #FD6E0A;
+    color: #FD6E0A;
 }
+
 .dark-2 {
-  color: #474747;
+    color: #474747;
 }
+
 .btn-primary {
-  background-color: #FD6E0A;
-  color: #fff;
-  padding: 18px 35px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 18px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
+
 /* header */
 .header {
-  background-image: url(../images/developer.png), url(../images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
-    
+
 /* Nav styles */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
 }
+
 .nav-title {
-  font-size: 45px;
-  font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
+
 nav ul {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 nav ul li {
-  list-style: none;
-  margin-right: 50px;
+    list-style: none;
+    margin-right: 50px;
 }
+
 nav li a {
-  text-decoration: none;
-  font-size: 20px;  /* ✅ এটি শুধুই টাইপো ঠিক করা হয়েছে */
+    text-decoration: none;
+    font-size: 20px; /* ✅ এটি শুধুই টাইপো ঠিক করা হয়েছে */
 }
 
 /* banner style */
 .banner {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 35px 0 200px;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    align-items: center;
 }
+
 .banner-greetings {
-  font-size: 45px;
-  font-weight: 600; /* ✅ px বাদ দেওয়া হয়েছে, কারণ font-weight পিক্সেল হয় না */
+    font-size: 45px;
+    font-weight: 600; /* ✅ px বাদ দেওয়া হয়েছে, কারণ font-weight পিক্সেল হয় না */
 }
+
 .banner-title {
-  font-size: 85px;
-  font-weight: bold;
-  margin-top: 20px;
+    font-size: 85px;
+    font-weight: bold;
+    margin-top: 20px;
 }
+
 .banner-profile-pic {
-  width: 580px;
-  height: 676px;
-  border-radius: 40%;
-  margin-top: 20px;
+    width: 580px;
+    height: 676px;
+    border-radius: 40%;
+    margin-top: 20px;
 }
+
 .banner-content {
-  max-width: 580px;
-  max-height: 350px;  /* ✅ only syntax fixed */
+    max-width: 580px;
+    max-height: 350px; /* ✅ only syntax fixed */
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: bold;
-    color:#181818;
+    color: #181818;
 }
+
 .section-description {
     font-size: 18px;
     color: #757575;
-    
 }
 
 
 /* about related style */
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
 }
 
 /* main styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
-   padding: 0% 50px ;
+    padding: 0% 50px;
 }
 
 .about-items {
@@ -124,38 +136,43 @@ main section{
     align-items: center;
     margin-top: 50px;
 }
-.item-description{
-    font-weight: 600 ;
+
+.item-description {
+    font-weight: 600;
 }
 
 /* skills section styles */
 .skills-container {
-  display: flex;
-  gap: 24px;
-
+    display: flex;
+    gap: 24px;
 }
+
 .skill {
-  padding: 30px;
-  box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 /* resume section styles */
-.resume-container{
-    display:flex;
+.resume-container {
+    display: flex;
     gap: 24px;
 }
-.experience-description, .experience-sub-title {
+
+.experience-description,
+.experience-sub-title {
     font-size: 18px;
     color: #757575;
     margin-top: 10px;
 }
-.experience-sub-title{
+
+.experience-sub-title {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.resume hr{
+
+.resume hr {
     margin: 30px 5px;
     border: 1px solid #b2a0a0;
 }
@@ -163,19 +180,20 @@ main section{
 .resume-download {
     margin-top: 50px;
     text-align: center;
-    
 }
+
 /* footer styles */
-footer{
-    background-color: #ffffff;
-    color: #f7f4f4;
+footer {
+    background-color: #ffffff; /* আপনার দেওয়া সাদা রংটি রেখে দেওয়া হয়েছে */
+    color: #f7f4f4; /* আপনার দেওয়া সাদাটে রংটি রেখে দেওয়া হয়েছে */
     padding: 130px 230px;
     text-align: center;
     display: flex;
     gap: 100px;
 }
-.footer-column{
-    width:50%;
+
+.footer-column {
+    width: 50%;
 }
 
 .footer-description {
@@ -183,11 +201,13 @@ footer{
     color: #757575;
     margin-top: 20px;
 }
+
 .footer-title {
     font-size: 30px;
     font-weight: bold;
     color: #181818;
 }
+
 .footer-contact .section-title {
     font-size: 35px;
     font-weight: bold;
@@ -196,16 +216,248 @@ footer{
 }
 
 /* Fix input and textarea selector */
-footer input[type="text"], 
-footer input[type="email"], 
+footer input[type="text"],
+footer input[type="email"],
 footer textarea {
-  height: 64px;
-  border-radius: 5px;
-  background-color: white;
-  display: block;
-  width: 100%;
-  padding: 10px 20px;
-  margin-bottom: 24px;
-  border: none;
-  box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.1);
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    box-shadow: 0px 6px 50px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* responsive media query */
+
+/* আপনার আগের মিডিয়া কোয়েরি (অপরিবর্তিত) */
+@media screen and (max-width: 576px) {
+    .skills-container,
+    .resume-container,
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        background-color: aqua;
+    }
+
+    /* nav {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .nav-title {
+        font-size: 30px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .banner-profile-pic {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    .about-items {
+        flex-direction: column;
+        align-items: center;
+    } */
+
+}
+
+/* আপনার আগের মিডিয়া কোয়েরি, কিছু ছোট পরিবর্তন সহ (অপরিবর্তিত) */
+@media screen and (max-width: 576px) {
+    .skills-container,
+    .resume-container,
+    .footer {
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 20px 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* এখানে calc() এর হিসাব ঠিক করা হয়েছে এবং box-sizing যোগ করা হয়েছে */
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 40px); /* ইনপুট ফিল্ডের ভিতরের প্যাডিংয়ের জন্য 40px (20px left + 20px right) বাদ দেওয়া হয়েছে */
+        box-sizing: border-box; /* বক্স-সাইজিং বর্ডার-বক্স সেট করা হয়েছে যাতে প্যাডিং প্রস্থের মধ্যে অন্তর্ভুক্ত থাকে এবং অতিরিক্ত সাদা জায়গা না আসে */
+    }
+}
+
+/* ✅ নতুন কোড যোগ করা হয়েছে (Bangla comments here) */
+
+/* এই মিডিয়া কোয়েরিটি ছোট ডিভাইসগুলির জন্য সাধারণ লেআউট ঠিক করবে।
+   ডানদিকে অতিরিক্ত সাদা জায়গা আসার মূল কারণগুলো এখানে সমাধান করা হয়েছে।
+   সাধারণত, ফিক্সড মার্জিন, প্যাডিং বা ফিক্সড উইডথ রেসপনসিভ ডিজাইনে সমস্যা করে। */
+@media screen and (max-width: 576px) {
+    body {
+        /* নিশ্চিত করা হচ্ছে যে বডিতে কোনো অতিরিক্ত মার্জিন বা প্যাডিং নেই যা সাদা স্থান তৈরি করতে পারে।
+           'overflow-x: hidden;' ব্যবহার করলে ডানদিকে স্ক্রলবার আসবে না, যদি কোনো এলিমেন্ট ভুলবশত বাইরে চলে যায়। */
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* ডানদিকে অনাকাঙ্ক্ষিত স্ক্রল প্রতিরোধ করে */
+    }
+
+    .header {
+        /* মোবাইল স্ক্রিনে ব্যানার ব্যাকগ্রাউন্ডের পজিশন সামঞ্জস্য করা হয়েছে */
+        background-position: top center, bottom center;
+        /* ব্যানার কন্টেন্টের সাথে সামঞ্জস্য রেখে প্যাডিং কমানো হয়েছে */
+        padding: 20px 0; /* উপরে নিচে প্যাডিং ঠিক রাখা হয়েছে, ডানে বামে শূন্য করা হয়েছে */
+    }
+
+    nav {
+        /* নেভিগেশনকে কলাম আকারে সাজানো হয়েছে এবং মার্জিন কমানো হয়েছে যাতে মোবাইল স্ক্রিনে ঠিকমতো বসে */
+        flex-direction: column;
+        margin: 0 20px; /* ডানে-বামে অতিরিক্ত মার্জিন কমানো হয়েছে */
+        padding-top: 20px; /* উপরের দিকে কিছুটা প্যাডিং যোগ করা হয়েছে */
+    }
+
+    nav .nav-title {
+        /* নেভিগেশন টাইটেলের ফন্ট সাইজ ছোট করা হয়েছে */
+        font-size: 30px;
+        margin-bottom: 10px; /* আইটেমগুলোর মধ্যে ব্যবধান */
+    }
+
+    nav ul {
+        /* নেভিগেশন লিংকগুলোকে কলাম আকারে সাজানো হয়েছে */
+        flex-direction: column;
+        align-items: center; /* লিংকগুলোকে কেন্দ্রে আনা হয়েছে */
+        padding: 0; /* ডিফল্ট প্যাডিং সরিয়ে দেওয়া হয়েছে */
+    }
+
+    nav ul li {
+        /* প্রতিটি নেভিগেশন আইটেমের মার্জিন সামঞ্জস্য করা হয়েছে */
+        margin-right: 0;
+        margin-bottom: 15px; /* নিচের দিকে মার্জিন */
+    }
+
+    .banner {
+        /* ব্যানার সেকশনকে কলাম আকারে সাজানো হয়েছে এবং মার্জিন সামঞ্জস্য করা হয়েছে */
+        flex-direction: column;
+        margin: 0 20px; /* ডানে-বামে মার্জিন কমানো হয়েছে */
+        text-align: center; /* টেক্সটগুলোকে কেন্দ্রে আনা হয়েছে */
+    }
+
+    .banner-content {
+        /* ব্যানার কন্টেন্টের জন্য সর্বোচ্চ প্রস্থ সেট করা হয়েছে যাতে এটি স্ক্রিন অতিক্রম না করে */
+        max-width: 100%; /* কন্টেন্টের প্রস্থ স্ক্রিনের সমান হবে */
+        padding: 0 10px; /* কন্টেন্টের ভিতরের প্যাডিং সামঞ্জস্য করা হয়েছে */
+    }
+
+    .banner-greetings {
+        /* শুভেচ্ছা টেক্সটের ফন্ট সাইজ ছোট করা হয়েছে */
+        font-size: 30px;
+    }
+
+    .banner-title {
+        /* ব্যানার টাইটেলের ফন্ট সাইজ ছোট করা হয়েছে */
+        font-size: 50px;
+    }
+
+    .banner-profile-pic {
+        /* প্রোফাইল ছবিকে রেসপনসিভ করা হয়েছে */
+        width: 80%; /* স্ক্রিনের প্রস্থের 80% */
+        height: auto; /* উচ্চতা স্বয়ংক্রিয়ভাবে অনুপাত বজায় রাখবে */
+        margin-top: 30px;
+        border-radius: 50%; /* পুরোপুরি গোলাকার করার জন্য */
+        max-width: 300px; /* ছবির একটি সর্বোচ্চ প্রস্থ সেট করা হয়েছে যাতে খুব বড় না হয়ে যায় */
+    }
+
+    .about {
+        /* 'About' সেকশনের প্যাডিং কমানো হয়েছে যাতে ছোট স্ক্রিনে ভালো দেখায় */
+        padding: 50px 20px; /* উপরে-নিচে প্যাডিং এবং ডানে-বামে কমানো হয়েছে */
+    }
+
+    .about-items {
+        /* 'About' আইটেমগুলোকে কলাম আকারে সাজানো হয়েছে */
+        flex-direction: column;
+        align-items: center;
+        gap: 30px; /* আইটেমগুলোর মধ্যে ব্যবধান */
+    }
+
+    main section {
+        /* মূল সেকশনের মার্জিন এবং প্যাডিং সামঞ্জস্য করা হয়েছে */
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0 20px; /* ডানে-বামে প্যাডিং কমানো হয়েছে */
+    }
+}
+
+/* ট্যাবলেট এবং মাঝারি ডিভাইসের জন্য অতিরিক্ত মিডিয়া কোয়েরি (যদি প্রয়োজন হয়) */
+/* এই কোয়েরিটি 577px থেকে 992px এর মধ্যে স্ক্রিন মাপের জন্য */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    nav {
+        /* নেভিগেশন মার্জিন ট্যাবলেট স্ক্রিনের জন্য সামঞ্জস্য করা হয়েছে */
+        margin: 0 50px;
+    }
+
+    .banner {
+        /* ব্যানার মার্জিন ট্যাবলেট স্ক্রিনের জন্য সামঞ্জস্য করা হয়েছে */
+        margin: 0 50px 0 50px;
+        flex-direction: column; /* ট্যাবলেট স্ক্রিনে ব্যানার কলাম আকারে দেখাবে */
+        text-align: center;
+    }
+    .banner-profile-pic {
+        width: 60%; /* ট্যাবলেট স্ক্রিনে ছবির প্রস্থ সামঞ্জস্য করা হয়েছে */
+        height: auto;
+        max-width: 400px; /* সর্বোচ্চ প্রস্থ সেট করা হয়েছে */
+    }
+    .banner-content {
+        max-width: 100%; /* কন্টেন্ট পুরো প্রস্থ ব্যবহার করবে */
+    }
+
+
+    main section {
+        /* মূল সেকশনের প্যাডিং ট্যাবলেট স্ক্রিনের জন্য সামঞ্জস্য করা হয়েছে */
+        padding: 0 30px;
+    }
+
+    .about {
+        /* 'About' সেকশনের প্যাডিং ট্যাবলেট স্ক্রিনের জন্য সামঞ্জস্য করা হয়েছে */
+        padding: 80px 50px;
+    }
+
+    .skills-container,
+    .resume-container {
+        /* স্কিল এবং রেজ্যুমে কন্টেইনারকে ট্যাবলেট স্ক্রিনে কলাম আকারে সাজানো হয়েছে বা কম কলামে */
+        flex-wrap: wrap; /* যদি একাধিক কলামে রাখতে চান */
+        justify-content: center;
+        gap: 20px;
+    }
+    /* আপনি চাইলে এখানে skills-container, resume-container এর জন্য 2 কলামের গ্রিডও ব্যবহার করতে পারেন */
+    /* .skills-container, .resume-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    } */
+
+    footer {
+        /* ফুটারে কলামগুলিকে ট্যাবলেট স্ক্রিনে কলাম আকারে সাজানো হয়েছে */
+        flex-direction: column;
+        padding: 50px 50px;
+        gap: 50px;
+    }
+
+    .footer-column {
+        width: 100%; /* ফুটারে প্রতিটি কলাম পুরো প্রস্থ নেবে */
+    }
 }
